@@ -1,0 +1,63 @@
+h1{
+    color: white;
+    background-color:#CB1C8D;
+    font-size: 64px;
+    margin-left: 20px;
+    padding: 10px;
+}
+body{
+    background-color:#E3ACF9
+    ; color:black;
+    font-family: 'Montserrat', sans-serif;
+}
+.landing{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-size:32px;
+}
+/* .about p{
+    margin-left: 50px;
+
+
+} */
+h2{
+    color: #CB1C8D;
+}
+.myProjects{
+    display: flex;
+    flex-direction: column;
+    border-width: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.Project{
+    
+    margin: 20px;
+    list-style: none;
+    width: 50%;
+    background-color: #537FE7;
+    height:20vh;
+}
+.Project:hover{
+    background-color: #F8F988;
+}
+.about{
+    text-align: center;
+}
+.outer{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.section1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+}
+.section2{
+    width:50%;
+    text-align: center;
+}
